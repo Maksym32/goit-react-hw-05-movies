@@ -5,8 +5,7 @@ export const NavMenu = styled.div`
 display: flex;
 margin: 10px auto;
 border-bottom: 2px solid gray;
-
-`
+`;
 export const NavItem = styled(NavLink)`
 text-decoration: none;
 text-align: center;
@@ -22,8 +21,8 @@ color: black;
     font-weight: 700;
 }
 
-&:hover {
+:hover {
 color: #e17878;
 font-weight: 700;
 }
-`
+`;
