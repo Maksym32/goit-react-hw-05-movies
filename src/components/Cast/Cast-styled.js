@@ -10,7 +10,6 @@ export const ActorCard = styled.li`
 width: 200px;
 margin: 5px;
 padding: 10px;
-background-color: yellow;
 border 1px solid gray;
 border-radius: 5px;
 list-style: none;
