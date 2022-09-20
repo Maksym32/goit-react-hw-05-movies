@@ -14,7 +14,8 @@ export default function MovieDetailsPage() {
     }, [movieId, setMovie]);
 
     const onGoBack = () => {
-        navigate(location?.state?.from ?? "/");
+        navigate(location.state.from ?? "/");
+        
     }
     
     return (
