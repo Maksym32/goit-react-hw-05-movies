@@ -12,7 +12,7 @@ const NotFound = lazy(() => import('./NotFound/NotFound'));
 export const App = () => {
   return (
     <div>
-      <Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path="/" element={<HomePage />} >
           <Route index element={<TodayMovies />} />
